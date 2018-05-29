@@ -1,0 +1,362 @@
+* {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    color: white;
+}
+
+.container {
+    width=100%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* TOP NAVBAR */
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 5px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.top-left {
+    display: inline-block;
+}
+
+/* HEADER */
+
+.header {
+    color: white;
+    background-color: rgb(32, 101, 136);
+    height: 400px;
+    position: relative;
+    background-image: url("city-scape.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.logo-container {
+    float: left;
+    display: inline-block;
+}
+
+.search-bar-container {
+    display: inline-block;
+    width: 70%;
+}
+
+.search-bar {
+    width: 100%;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.npm-logo {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+}
+
+input {
+    height: 42px;
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    background-color: rgb(31, 82, 111);
+}
+
+.sign-in-container {
+    float: right;
+    vertical-align: middle;
+}
+
+.bear-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.city-scape {
+    float: right;
+    display: inline;
+}
+
+.header-content-container {
+    width: 50%;
+    height: 100%;
+}
+
+.header-content {
+    margin-left: 50%;
+    
+}
+
+.header-button {
+    display: inline-block;
+    background-color: rgb(240, 146, 51);
+    margin: 10px 0 20px 0;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    border: 0px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+.header p {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* COLLABORATION */
+
+.collaboration {
+    height: 400px;
+    background-color: rgb(39, 53, 71);
+    vertical-align: middle;
+    color: white;
+    position: relative;
+}
+
+.collab-content-right {
+    height: 100%;
+    padding-left: 2rem;
+}
+
+.collab-center-container {
+    height: 325px;
+    padding-top: 3rem;
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collaboration img {
+    float: right;
+    width: 90%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.collab-image {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+    float: left;
+}
+
+.collab-content {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.collab-content li {
+    padding-top: 1rem;
+}
+
+.collab-button-container {
+    margin-top: 2rem;
+    font-size: 15.5px;
+}
+
+.collab-button {
+    display: inline-block;
+    background-color: rgb(203, 56, 55);
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    border: 0px;
+    margin-bottom: 5px;
+}
+
+.collab-h1 {
+    display: block;
+    float: left;
+    margin-bottom: 1.5rem;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.collab-ul-container {
+    padding-left: 1rem;
+}
+
+.collab-ul {
+    display: block;
+    line-height: 2;
+    font-size: 12.5px;
+    margin-bottom: 2rem;
+}
+
+/* WHAT IS NPM? */
+
+.what-is-npm {
+    background-image: url("forklift.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.center-container {
+    height: 325px;
+    margin: 0;
+    padding-top: 75px;
+}
+
+.what-is-npm-content {
+    max-width: 45%;
+    height: 325px;
+    margin: 0;
+}
+
+.what-is-npm-h1 {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 2.25rem;
+}
+
+.what-is-npm-p {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.47;
+}
+
+.install-npm-button {
+    display: block;
+    background-color: rgb(49, 68, 88);
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    border: 0px;
+}
+
+/* NPM REGISTRY */
+
+.npm-registry {
+    background-color: white;
+    height: 400px;
+    text-align: center;
+}
+
+.registry-center {
+    max-width: 64rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+.feature-container {
+    height: 400px;
+    margin: 0 auto;
+}
+
+.feature-container h2 {
+    color: rgb(83, 88, 98);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.feature-container p {
+    color: rgb(135, 145, 156);
+    line-height: 1.5;
+}
+
+.feature-container a {
+    color: rgb(208, 74, 73);
+}
+
+.npm-registry-text h1 {
+    color: rgb(83, 88, 98);
+    margin-bottom: 25px;
+}
+
+.npm-registry-text p {
+    color: rgb(135, 145, 156);
+    margin-bottom: 40px;
+}
+
+.find {
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.find-text {
+    padding: 0 20px 0 20px;
+}
+
+.discover {
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.discover-text {
+    padding: 0 10px 0 10px;
+}
+
+.build {
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.build-text {
+    padding: 0 10px 0 10px;
+}
